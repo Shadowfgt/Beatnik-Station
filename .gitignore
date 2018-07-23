@@ -13,3 +13,4 @@
 *.backup
 *.int
 *.db
+.atom-build.json
