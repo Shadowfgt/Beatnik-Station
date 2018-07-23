@@ -128,19 +128,19 @@ GUEST_BAN
 SERVER
 
 ## forum address
-FORUMURL
+FORUMURL https://discord.gg/FSFG8fV
 
 ## Wiki address
-WIKIURL
+WIKIURL https://discord.gg/FSFG8fV
 
 ##Rules address
-RULESURL
+RULESURL https://discord.gg/FSFG8fV
 
 ##Github address
-GITHUBURL
+GITHUBURL https://discord.gg/FSFG8fV
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-BANAPPEALS
+BANAPPEALS https://discord.gg/FSFG8fV
 
 ## TeamSpeak URL, allows the client to connect directly to the Teamspeak server of your choice. Typically the link for a TS3 url is ts3server://[TS IP/ADDRESS]?port=[PORTNUM]
 #TEAMSPEAKURL [ADDRESS]
