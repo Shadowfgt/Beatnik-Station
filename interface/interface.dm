@@ -60,15 +60,15 @@
 	return
 
 /client/verb/teamspeak()
-	set name = "Teamspeak"
-	set desc = "Join the TS server."
+	set name = "Discord"
+	set desc = "Join the discord server."
 	set hidden = 1
 	if(config.teamspeakurl)
-		if(alert("This will connect you directly to the Teamspeak server if you have teamspeak installed. Are you sure?",,"Yes","No")=="No")
+		if(alert("This will open the discord server in your brwoser. Are you sure?",,"Yes","No")=="No")
 			return
 		src << link(config.teamspeakurl)
 	else
-		src << "<span class='danger'>The Teamspeak URL is not set in the server configuration.</span>"
+		src << "<span class='danger'>The Discord URL is not set in the server configuration.</span>"
 	return
 
 /client/verb/hotkeys_help()
