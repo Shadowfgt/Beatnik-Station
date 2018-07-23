@@ -30,9 +30,6 @@ before_script:
   - chmod +x tools/check_filedirs.sh
   - chmod +x ./install-byond.sh
   - ./install-byond.sh
-  
-notifications:
-  slack: hippiestation13:szQihSePHinCZboi1o4GaLCp
 
 script:
   - shopt -s globstar
