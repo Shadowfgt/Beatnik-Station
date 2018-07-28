@@ -1,9 +1,0 @@
-{
-    "cmd": "C:/path/to/the/repo/compiler/dm-510.exe",
-    "args": [ "C:/path/to/the/repo/tgstation.dme" ],
-    "sh": false,
-    "errorMatch":
-    [
-        "\n(?<file>[\\\\\/0-9a-zA-Z\\._]+):(?<line>\\d+).*"
-    ]
-}
